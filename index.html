@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <style>
+        body {
+            max-width: 100vw;
+        }
+        
         header {
             background-color: #123152;
             color: #F9F9F9;
             text-align: center;
-            max-width: 800px;
             margin: 0 auto;
             padding: 16px;
 
@@ -19,13 +22,19 @@
         main {
             background-color: #F9F9F9;
             color: #123152;
-            max-width: 800px;
             margin: 0 auto;
             padding: 16px;
+
+            display: flex;
         }
         article{
             display: flex;
 
+            border: 1px solid #123152
+
+            margin: 16px;
+            gap: 16px;
+            padding: 16px;
         }
 
         img {
